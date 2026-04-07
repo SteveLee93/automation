@@ -2,8 +2,8 @@
 
 ## 2026-04-07
 
-- 소스별 `08_*` collection 3종을 저녁 최종 상태로 다시 정리했고, late-day 신규 raw가 없다는 점을 헤더와 Diagnostics에 명시했다.
-- `21_integrated_analysis.md`를 Hormuz·에너지, AI 인프라 자본 사이클, AI 노동 재설계, Gemma 4 / MCP tool-choice의 4개 최종 흐름 중심으로 재작성했다.
-- `22_close_handoff.md`를 내일 아침 3분 복기용 문서로 압축했고, 첫 확인 포인트 3개와 high-priority watch carryover만 남겼다.
-- `PROJECT_OPERATING_GUIDE.md`와 `Plan.md`를 저녁용 사용 흐름 기준으로 갱신했고, `11_*` / `13_*` raw 재사용 규칙과 다음 액션을 최신화했다.
-- `docs: update evening analysis and close handoff for 2026-04-07` (`ac013cd`)로 commit했고, `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했다. 다음 수동 액션은 자격 증명이 있는 셸에서 같은 명령을 다시 실행하는 것이다.
+- 소스별 `08_*` collection 3종을 저녁 rerun 기준으로 다시 정리했고, late-day 신규 raw 부재와 candidate snapshot 입력 공백을 메타에 반영했다.
+- 비어 있던 루트 candidate snapshot 5종을 같은 날짜의 `08_*` 후보 문서에서 생성해 입력 호환 경로를 복구했다.
+- `21_integrated_analysis.md`를 `최종 핵심 흐름 + Final Cross-Confirmed Signals + Decision Support Notes` 구조로 다시 썼다.
+- `22_close_handoff.md`를 `오늘 가장 중요한 흐름 1개 + Tonight if I want to do one thing + 체크박스형 실행 보드` 구조로 압축했다.
+- `PROJECT_OPERATING_GUIDE.md`와 `Plan.md`를 snapshot fallback 흐름과 내일 첫 행동 기준으로 갱신했다.

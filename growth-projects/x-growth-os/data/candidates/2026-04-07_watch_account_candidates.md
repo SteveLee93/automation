@@ -1,82 +1,21 @@
-# 08 Watch Account Candidates
+# 2026-04-07 Watch Account Candidates
 
-- 실행 시각: 2026-04-07 07:12:38 +09:00
-- 이번 실행의 watch_accounts 후보 요약: 감시 계정 바깥에서 반복 브리핑 품질을 높일 가능성이 있는 계정 6개를 추렸다. 즉시 추가 후보는 공식 원문 공백과 반도체·builder 인프라 공백을 메우는 성격이고, 나머지는 2~3회 더 반복 등장 여부를 보는 편이 안전하다.
-- 즉시 추가 추천 계정 수: 3
-- 관찰 후 판단 계정 수: 3
-- 보류 계정 수: 0
+- 생성 시각: 2026-04-07 15:41:51 +09:00
+- 원본 파일: `x-growth-os/data/candidates/2026-04-07/08_watch_account_candidates.md`
+- 생성 이유: 루트 candidate snapshot 입력이 비어 있어 저녁 자동화가 같은 날짜의 `08_*` 후보 문서를 바로 읽을 수 있도록 요약 snapshot을 만들었다.
 
 ## Add Now
 
-### @Google
-- 추천 카테고리: official_ai
-- 발견 경로: 연관 계정
-- 이번 실행 등장 횟수: 1
-- 대표 게시물 링크: https://x.com/Google/status/2039736220834480233
-- 추천 이유: watch_accounts에는 `@GoogleAI`가 있지만 실제 제품 원문이 `@Google` 본계정에서 올라오는 경우가 있다. Gemma 4처럼 배포·라이선스·개발자 채택성이 한 번에 걸린 공지 포착에 유리하다.
-- 주의사항: AI 전용 계정이 아니라 기업 전반 공지가 섞일 수 있어 필터링이 필요하다.
-- 추천 우선순위: high
-
-### @SEMIconex
-- 추천 카테고리: macro_data
-- 발견 경로: 키워드 기반
-- 이번 실행 등장 횟수: 1
-- 대표 게시물 링크: https://x.com/SEMIconex/status/2039384585666965950
-- 추천 이유: 공식 협회 계정이 반도체 설비 투자 숫자를 직접 제공해 투자·산업 구조 브리핑의 수치 앵커 역할을 한다. AI 인프라 capex 흐름을 반복적으로 보강할 가능성이 높다.
-- 주의사항: 반도체 장비·제조 쪽 비중이 높아 거시 전반 커버리지는 제한적이다.
-- 추천 우선순위: high
-
-### @PolkadotDevs
-- 추천 카테고리: builder_career
-- 발견 경로: 키워드 기반
-- 이번 실행 등장 횟수: 1
-- 대표 게시물 링크: https://x.com/PolkadotDevs/status/2039595448877400366
-- 추천 이유: MCP, 개발 문서, 에이전트용 컨텍스트처럼 builder 관점에서 재활용 가치가 높은 원문 비중이 높다. 현재 `builder_career` 감시 계정의 직접 원문 부족분을 메우는 데 도움이 된다.
-- 주의사항: 특정 생태계 중심 계정이라 범용 AI 제품 뉴스보다 범위가 좁다.
-- 추천 우선순위: high
+- @Google: Gemma 4 공식 발표 원문을 바로 잡기 위한 공식 계정 보강
+- @SEMIconex: AI 인프라 capex 숫자 앵커 보강
+- @PolkadotDevs: MCP와 builder workflow 실무 사례 보강
 
 ## Observe More
 
-### @semivision_tw
-- 추천 카테고리: macro_data
-- 발견 경로: 키워드 기반
-- 이번 실행 등장 횟수: 1
-- 대표 게시물 링크: https://x.com/semivision_tw/status/2040021145181974948
-- 추천 이유: 파운드리·ASIC·AI GPU 쪽 구조 변화를 빠르게 정리해 투자 카테고리 부족분을 메울 때 유용하다. 반도체 수요 흐름을 좁고 깊게 추적하는 데 강점이 있다.
-- 주의사항: 리서치 요약형 포스트가 많아 원 보고서 확인 전까지는 과신하면 안 된다.
-- 추천 우선순위: medium
+- @semivision_tw: 반도체 구조 변화 해설 보강
+- @OurWorldInData: AI 일자리 데이터 앵커 보강
+- @ZDNET: 사무 자동화 실사용 사례 보강
 
-### @ZDNET
-- 추천 카테고리: builder_career
-- 발견 경로: 키워드 기반
-- 이번 실행 등장 횟수: 1
-- 대표 게시물 링크: https://x.com/ZDNET/status/2039568581512278439
-- 추천 이유: 실무 생산성, AI 업무 도구, 일반 사용자 워크플로 사례를 빠르게 포착한다. 커리어 카테고리에서 도구 체감형 재료를 보강하는 데 쓸 만하다.
-- 주의사항: 기사형 요약 비중이 있어 원문 제품 발표와 섞어 보지 않으면 과장 해석 위험이 있다.
-- 추천 우선순위: medium
+## Notes
 
-### @OurWorldInData
-- 추천 카테고리: global_news
-- 발견 경로: 키워드 기반
-- 이번 실행 등장 횟수: 1
-- 대표 게시물 링크: https://x.com/OurWorldInData/status/2040499998182240486
-- 추천 이유: AI와 노동시장, 생산성, 장기 시계열 데이터를 신뢰도 높게 제공한다. 커리어·거시 해석 사이의 데이터 앵커로 재활용 가치가 높다.
-- 주의사항: X 네이티브 속보 계정은 아니어서 매일 다수의 신선한 항목을 공급하진 않을 수 있다.
-- 추천 우선순위: medium
-
-## Hold
-
-- 해당 없음
-
-## Suggested Patch for watch_accounts.md
-
-- 아래는 지금 바로 추가 추천하는 계정만 실제 패치 후보로 묶었다.
-
-## official_ai
-- @Google
-
-## macro_data
-- @SEMIconex
-
-## builder_career
-- @PolkadotDevs
+- 상세 근거와 suggested patch는 `x-growth-os/data/candidates/2026-04-07/08_watch_account_candidates.md`를 우선 참고한다.

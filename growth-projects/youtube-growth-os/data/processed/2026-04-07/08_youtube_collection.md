@@ -1,7 +1,7 @@
 # 08 YouTube Collection
 
-- 실행 시각: 2026-04-07 14:44:38 +09:00
-- 초기 실행 여부: 예
+- 실행 시각: 2026-04-07 15:41:51 +09:00
+- 초기 실행 여부: 아니오. 같은 날짜 저녁 rerun으로 기존 processed 문서를 같은 raw 기준선으로 다시 검토했다.
 - raw 활용: 예 (`11_youtube_raw.md` 우선 반영 + `13_youtube_raw.md` 점심 보강, late-day 신규 raw 없음)
 - 적용된 시간 범위: 2026-03-31 ~ 2026-04-06
 - 총 수집 개수: 15
@@ -11,7 +11,7 @@
 - 지역 분포: 한국 0 / 미국 7 / 일본 0 / 글로벌 8 / 기타 0
 - 영상 형식 분포: 뉴스 브리핑형 8 / 해설형 3 / 시장 분석형 2 / 인터뷰형 2 / 튜토리얼형 0 / 기타 0
 - 많이 나온 주제 3개: Hormuz·oil shock의 비용 전이, AI 정책과 jobs explanation, workplace AI와 감시형 자동화
-- 수집 메모: 저녁 최종 재정렬이다. 오전 baseline과 `13_youtube_raw.md` 5건을 그대로 유지했고, 저녁 직전 신규 YouTube raw는 없어 late-day 설명 보강 없이 우선순위만 다시 정리했다. exact watch channel 직접 반영은 여전히 약하고 Bloomberg 계열 의존은 계속 높다.
+- 수집 메모: 저녁 최종 rerun 기준 재정렬이다. 오전 baseline과 `13_youtube_raw.md` 5건을 그대로 유지했고, 저녁 직전 신규 YouTube raw는 없어 late-day 설명 보강 없이 우선순위만 다시 정리했다. 루트 channel/topic candidate snapshot 입력은 비어 있어 `data/candidates/2026-04-07/08_*` 후보 문서를 기준으로 상위 snapshot 파일을 함께 생성했다.
 
 ## 영상 목록
 

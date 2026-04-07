@@ -1,7 +1,7 @@
 # 08 Collection
 
-- 실행 시각: 2026-04-07 14:44:38 +09:00
-- 초기 실행 여부: 예
+- 실행 시각: 2026-04-07 15:41:51 +09:00
+- 초기 실행 여부: 아니오. 같은 날짜 저녁 rerun으로 기존 processed 문서를 같은 raw 기준선으로 다시 검토했다.
 - raw 활용: 예 (`11_collection_raw.md` 우선 반영 + `13_collection_raw.md` 점심 보강, late-day 신규 raw 없음)
 - 적용된 시간 범위: 2026-04-02 ~ 2026-04-07
 - 총 수집 개수: 13
@@ -9,7 +9,7 @@
 - 신뢰도 분포: high 8 / medium 5 / low 0
 - 수집 경로 분포: 계정 기반 5 / 키워드 기반 6 / 혼합 2
 - 많이 나온 주제 3개: Hormuz·에너지 충격의 시장 반응, AI 인프라·오픈모델 확산, AI 고용·업무 재설계
-- 수집 메모: 저녁 최종 재정렬이다. 오전 11시 raw와 `13_collection_raw.md` 4건을 그대로 재사용했고, 저녁 직전 신규 raw는 없어 late-day signal 보강 없이 우선순위만 다시 정렬했다. direct watch_accounts 신규 원문은 약했고 x.com trend summary와 Gemma 4 quote-post 비중이 높다.
+- 수집 메모: 저녁 최종 rerun 기준 재정렬이다. 오전 11시 raw와 `13_collection_raw.md` 4건을 그대로 재사용했고, 저녁 직전 신규 raw는 없어 late-day signal 보강 없이 우선순위만 다시 정렬했다. 루트 candidate snapshot 입력은 비어 있어 `data/candidates/2026-04-07/08_watch_account_candidates.md`를 기준으로 상위 snapshot 파일을 함께 생성했다.
 
 ## 항목 목록
 
