@@ -1,109 +1,113 @@
-# Midday Integrated Analysis Delta
+# 13 Integrated Analysis Delta
+
 - 날짜: 2026-04-07
-- 작성 시각: 2026-04-07 09:57:14 +09:00
+- 작성 시각: 2026-04-07 13:27:47 +09:00
 - 입력 소스: X / News / YouTube
 - 점심 핵심 변화 흐름 수: 3
 - 점심 관찰 후보 흐름 수: 4
 - 오전 대비 한줄 판단:
-  - 점심 추가 수집본이 아직 없어 `새로 생긴 흐름`보다 기존 흐름의 강도 재평가가 중심이다.
-  - 에너지/Hormuz는 거시 변수에 그치지 않고 희토류·전력장비·AI 인프라 공급망까지 이어지는 2차 압박 흐름으로 더 선명해졌다.
-  - AI 쪽은 `인프라 자본 사이클`과 `오픈 툴링의 통제 경제학`이 오전보다 또렷해졌고, `고용·재교육`은 여전히 뉴스 선행 상태다.
-- 초기 실행 여부: 예. 오늘 첫 점심 delta 문서이며 `2026-04-07 09:57:14 +09:00` 기준 점심 이전 실행이라 비교 기준 약함.
-- 누락 입력 여부: X / News / YouTube의 점심 추가 수집본이 없다. 세 소스 모두 09:43 생성본과 오전 분석 문서를 기준선으로 사용했다.
-- 새로 생긴 흐름: 뚜렷한 신규 흐름 없음.
-- 더 강해진 흐름: 에너지 충격의 2차 공급망 효과, AI 인프라의 전력·회사채·국가투자 레이어, 오픈모델/오픈에이전트의 과금·보안 레이어
-- 아직 관찰 단계인 흐름: AI skilling, 공공부문 AI 업무자동화, 희토류·전력장비 병목, 고객지원형 AI 업무 재설계
+  - Hormuz 흐름은 "봉쇄 공포"에서 "선별 통항 재개 + 여전히 높은 비용" 단계로 성격이 바뀌며 더 입체적이 됐다.
+  - AI 인프라 흐름은 단순 자금조달을 넘어 전력·장비 병목과 capex 집행 역량까지 붙으면서 더 구조적인 이야기로 커졌다.
+  - AI 노동 흐름은 불안·감원 담론에 더해 분배 정책과 신규 일자리 생성 논쟁이 붙어 설명 가치가 높아졌다.
+- 초기 실행 여부: 예. 점심 전용 raw와 기존 `13_*` 출력이 없어 이번 실행이 첫 점심 기준선 역할을 겸한다.
+- 누락 입력 여부: 오전 이후 로컬 raw는 없었다. X는 direct watch_accounts 원문이 약해 x.com trend summary와 quote-post를 보강용으로 사용했다.
+- raw 활용 여부: 예. `11_collection_raw.md`, `11_news_raw.md`, `11_youtube_raw.md`와 새로 만든 `13_collection_raw.md`, `13_news_raw.md`, `13_youtube_raw.md`를 함께 반영했다.
 
-## Core Change 1
-- 제목: 에너지/Hormuz가 거시 변수에서 공급망 2차 압박 변수로 확장
-- 변화 유형: 더 강해진 흐름
-- 점심 delta 요약: 오전에는 유가·물가·금리·위험자산을 같이 흔드는 거시 앵커로 읽혔다면, 점심 기준에는 희토류와 AI 데이터센터 전력장비 병목까지 자극하는 2차 공급망 변수로 해석 범위가 넓어졌다.
-- X 보강 신호: `@Reuters`의 러시아 휘발유 수출 금지 연장과 TSX 위험자산 반응, `@WandileSihlobo`의 식품가격-연료비 연결이 에너지 충격의 전이 경로를 보강했다.
-- News 보강 신호: IMF의 인플레이션 상방 위험 경고와 Bloomberg의 `미국 AI 데이터센터 증설, 중국산 전력장비 의존이 병목으로 부상` 기사가 거시 변수와 인프라 병목을 연결했다.
-- YouTube 보강 신호: `All Options Considered: Iran War, Hormuz and Market Tails`와 `Asia Centric: Iran War Drives New Global Urgency for Rare Earths`가 유가 tail risk가 희토류와 AI 공급망까지 번지는 그림을 설명했다.
-- 왜 달라졌는가: 오전에는 시장 가격 반응이 중심이었다. 점심 기준에는 공급망과 AI 인프라 제약까지 한 줄로 묶이면서 “지정학 -> 유가 -> 병목 -> 투자지연” 프레임이 더 분명해졌다.
-- 점심 최소 행동: 브렌트유, DXY, 미국 10년물과 함께 `희토류`·`전력장비` 관련 후속 기사 유무를 한 번에 체크한다.
+- 새로 생긴 흐름: AI 인프라의 전력·장비 병목, AI 일자리 생성 논쟁
+- 더 강해진 흐름: Hormuz managed scarcity, AI 인프라 capex 실행 압박
+- 아직 관찰 단계인 흐름: Anthropic 주권 경쟁, Gemma 4 로컬 채택, 에너지발 식품 물가 전이, AI coworker 감시형 도입
 
-## Core Change 2
-- 제목: AI 인프라가 칩 뉴스에서 전력·회사채·국가투자 사이클로 더 강해짐
-- 변화 유형: 더 강해진 흐름
-- 점심 delta 요약: 오전에는 capex 숫자와 메모리 수요가 강했다면, 점심 기준에는 회사채 조달, 국가 투자, 전력장비 병목, 메모리 공급 파트너십이 붙으면서 훨씬 구조적인 산업 사이클로 보인다.
-- X 보강 신호: `@SEMIconex`의 300mm 장비 투자 전망, `@semivision_tw`의 Foundry 2.0 매출 기대, `@Reuters`의 Foxconn 1분기 매출 +29.7%가 하드웨어 수요를 수치로 받쳤다.
-- News 보강 신호: QTS의 46억달러 회사채, Microsoft의 일본 100억달러 투자, Samsung-Mistral AI 메모리 협력 논의, 미국 데이터센터의 전력장비 병목이 하나의 묶음으로 연결됐다.
-- YouTube 보강 신호: 직접적인 인프라 해설은 약했지만 `Asia Centric`의 희토류 긴급성과 `Vanguards of Health Care: Insilico`의 vertical AI 상용화가 왜 인프라 압력이 계속 커지는지 간접 설명을 보탰다.
-- 왜 달라졌는가: 오전의 “칩/메모리 수요”가 점심에는 “전력·채권·국가정책까지 끌어들이는 자본 사이클”로 승격됐다. 저녁에는 이 축이 가장 먼저 follow-through를 확인할 후보다.
-- 점심 최소 행동: `300mm 1330억달러 / QTS 46억달러 / Microsoft Japan 100억달러 / Foxconn +29.7%` 네 숫자만 따로 묶어 저녁 비교 기준으로 남긴다.
+## 오전 대비 새로 생기거나 더 강해진 핵심 변화 흐름 3개
 
-## Core Change 3
-- 제목: 오픈모델·오픈에이전트는 채택 이슈에서 과금·보안·통제 이슈로 더 선명해짐
-- 변화 유형: 더 강해진 흐름
-- 점심 delta 요약: 오전에는 Gemma 4, MCP, OpenClaw가 개발자 채택 신호로 읽혔다면, 점심 기준에는 Anthropic의 외부 하네스 과금과 Claude 소스 보안 이슈가 붙으면서 “개방성 vs 통제” 구도가 더 또렷해졌다.
-- X 보강 신호: `@Google`의 Gemma 4 Apache 2.0 공개와 `@PolkadotDevs`의 MCP 문서 연결은 오픈 툴링이 실제 워크플로 경로로 들어오고 있음을 보여줬다.
-- News 보강 신호: TechCrunch의 Anthropic 외부 하네스 종량 과금과 PAC 기사, OpenAI 산업정책 문서는 오픈 툴링 경쟁이 비용 구조와 제도 설계 문제로 번지고 있음을 확인해줬다.
-- YouTube 보강 신호: `Meet OpenClaw: The AI Craze Sweeping China`와 `Bloomberg Tech 4/1/2026`의 Claude 소스 노출 이슈가 채택과 보안 리스크를 함께 설명했다.
-- 왜 달라졌는가: 오전에는 “무엇이 퍼지는가”가 중심이었다. 점심에는 “누가 통제권과 수익화 구조를 가져가느냐”가 더 중요한 질문으로 올라왔다.
-- 점심 최소 행동: Gemma 4 / Claude Code / OpenClaw를 `개방성`, `비용`, `보안`, `로컬 실행성` 네 기준으로 짧게 비교 메모한다.
+### 1. Hormuz 충격이 "봉쇄 공포"에서 "부분 재개된 고비용 통행" 국면으로 이동
+- 판정: cross-source high
+- 오전 대비 달라진 점: 오전에는 유가 tail risk와 전면 봉쇄 공포가 중심이었다. 점심에는 Bloomberg의 Hormuz tracker가 주간 평균 통항량 회복을 보여 주는 반면, X에서는 여전히 최후통첩과 봉쇄 이슈가 시장 담론 상단에 있고, YouTube는 전쟁 비용과 식품 물가 전이까지 붙여 줬다. 즉 "닫혔는가"보다 "비정상 비용으로 얼마나 버티는가"가 핵심 질문으로 바뀌었다.
+- X delta: x.com trend page 기준으로 Hormuz 봉쇄와 최후통첩 이슈가 여전히 빠른 시장 불안 신호로 유지됐다.
+- News delta: `HORMUZ TRACKER`는 통항이 일부 회복됐어도 정상화와는 멀다는 점을 보여 줬고, Bloomberg 시장 페이지에는 원유가 여전히 높은 수준으로 남아 있었다.
+- YouTube delta: `The Cost of the Middle East Conflict`, `Will the Iran War Send Food Prices Soaring?`가 에너지 쇼크를 재정 부담과 식품 물가로 확장해 설명했다.
+- 왜 지금 중요한가: 오전에는 "유가 급등"만 보였다면 점심에는 통항·비용·2차 물가 전이까지 한 묶음으로 봐야 하기 때문이다.
+- 오늘 점심 기준 최소 행동: 저녁에는 유가 수준보다 Hormuz 통항 정상화 속도, 운임/보험료, 식품·비료 관련 후속 기사 유무를 먼저 확인한다.
 
-## Observation Candidates
+### 2. AI 인프라 흐름이 financing에서 power bottleneck과 capex execution으로 확장
+- 판정: cross-source high
+- 오전 대비 달라진 점: 오전에는 Microsoft 일본 투자, QTS 회사채, Samsung-Mistral, Foxconn 수요가 "돈이 몰린다"는 그림을 만들었다. 점심에는 Hon Hai 기사로 X의 Foxconn 신호가 뉴스로 잠겼고, Oracle CFO 교체와 미국 데이터센터 전력 장비 부족 기사까지 붙으면서 "돈이 있어도 짓고 돌릴 수 있는가"가 새 핵심 질문이 됐다.
+- X delta: Gemma 4 관련 quote-post는 오픈모델 발표가 곧바로 로컬·agentic workflow 채택 담론으로 번지고 있음을 보여 줬다.
+- News delta: Hon Hai 매출, Oracle CFO 교체, 미국 전력 장비·변압기 병목 기사가 AI 인프라를 수요, 현금, 공급 제약의 세 층으로 넓혔다.
+- YouTube delta: 오전의 `Asia Centric` rare earths 해설이 점심 뉴스의 전력·장비 병목 기사와 더 잘 맞물리게 됐다. 점심 신규 영상 자체는 적었지만 기존 설명의 활용도가 올라갔다.
+- 왜 지금 중요한가: AI 인프라 투자 서사가 단순 capex 테마에서 공급망·전력망·집행 능력 검증 단계로 진입했기 때문이다.
+- 오늘 점심 기준 최소 행동: 저녁에는 삼성전자·메모리 체인 반응, Oracle/OCI capex 관련 후속, 전력 장비 병목을 직접 언급하는 추가 기사나 코멘트를 묶어 본다.
 
-### Candidate 1
-- 제목: AI skilling / workforce transition programs
-- 상태: News 강함, X 반응 지연
-- 왜 남기나: OpenAI 산업정책, Microsoft Japan의 인력양성, Korea JoongAng Daily의 화이트칼라 반복업무 약화가 한 흐름으로 이어진다.
-- 저녁에 다시 볼 것: 재교육, 생산성 이익 공유, 실제 채용/감원 지표가 X 반응이나 추가 기사로 붙는지 본다.
+### 3. AI 노동 서사가 "불안"에서 "분배 정책 + 신규 일자리 생성 + 감시형 자동화"로 갈라짐
+- 판정: cross-source high
+- 오전 대비 달라진 점: 오전에는 layoffs, 화이트칼라 약화, job anxiety가 중심이었다. 점심에는 OpenAI 정책 영상과 외부 기사, X의 OpenAI 인력 확대 담론, Bloomberg의 AI jobs / AI coworker 영상이 붙으면서 "누가 일자리를 잃는가"뿐 아니라 "누가 gains를 가져가고 어떤 방식으로 새로운 일이 생기는가"가 동시에 떠올랐다.
+- X delta: OpenAI 인력 8,000명 확대 담론은 AI boom이 여전히 고급 인력 수요를 밀어 올린다는 반대 신호를 줬다.
+- News delta: OpenAI 정책 보도와 영국의 Anthropic 유치 움직임은 AI 기업이 노동시장·제도·국가 전략의 일부로 다뤄지기 시작했음을 보여 준다.
+- YouTube delta: `OpenAI Releases Policy Recommendations for AI Age`, `Former Commerce Secretary on Where AI Will Actually Create Jobs`, `Meet the New AI Coworker...`가 분배, 창업형 일자리, 감시형 업무 자동화를 각각 구체화했다.
+- 왜 지금 중요한가: 저녁 재검토에서 AI 노동 흐름을 단순 감원 뉴스 묶음이 아니라 정책·창업·업무 통제라는 세 갈래로 분리해 봐야 하기 때문이다.
+- 오늘 점심 기준 최소 행동: 저녁에는 `AI skilling / workforce transition`, `AI job creation / entrepreneurship`, `AI coworker surveillance`를 분리된 watch 주제로 다시 검토한다.
 
-### Candidate 2
-- 제목: 공공부문 AI workload automation
-- 상태: News-only 초기 신호
-- 왜 남기나: 일본 정부의 국회 답변 초안 AI 도입은 작은 기사지만, 민간 밖으로 자동화가 넘어가는 초입 신호다.
-- 저녁에 다시 볼 것: 다른 정부 조직 사례나 X 확산 반응이 붙는지 확인한다.
+## 저녁에 다시 볼 관찰 후보 흐름 4개
 
-### Candidate 3
-- 제목: 희토류·전력장비 병목이 AI 인프라 2차 제약으로 커지는지
-- 상태: News + YouTube 설명 보강, X 약함
-- 왜 남기나: 전력장비 병목 기사와 rare earth 해설은 강하지만 아직 X의 직접 숫자 반응이 약하다.
-- 저녁에 다시 볼 것: 변압기·스위치기어·rare earth 관련 후속 헤드라인이나 시장 언급이 추가되는지 본다.
+### 관찰 후보 1. Anthropic를 둘러싼 AI 주권 경쟁
+- 현재 판정: News 강세 / X 약세
+- 이유: 영국의 Anthropic 유치 움직임이 붙으면서 AI 기업 유치가 규제·국방 갈등과 연결되고 있다. 아직 시장 가격 반응이나 YouTube 설명은 약하다.
+- 저녁에 무엇을 다시 보면 되는지: 영국·미국 정책 반응, Anthropic 관련 추가 보도, 국방 계약 또는 listing 언급 확대 여부.
 
-### Candidate 4
-- 제목: AI customer-service labor redesign
-- 상태: YouTube 설명 가치 우위
-- 왜 남기나: `Your AI Coworker Might Snitch`류 설명과 오늘의 노동 전환 기사 흐름이 맞물리지만, 아직 구조적 지표나 현장 사례 반복이 부족하다.
-- 저녁에 다시 볼 것: 고객지원, 콜센터, 화이트칼라 반복업무 재배치 사례가 뉴스나 X에서 더 붙는지 확인한다.
+### 관찰 후보 2. Gemma 4의 로컬 agentic 채택 속도
+- 현재 판정: X 강세 / News 약세 / YouTube 제한
+- 이유: 점심 X 보강은 발표 자체보다 "바로 써 본다"는 builder 반응으로 이동했다. 하지만 기사형 확인과 장문 설명은 아직 얕다.
+- 저녁에 무엇을 다시 보면 되는지: 추가 개발자 반응, 벤치마크 검증, 로컬 배포 튜토리얼 또는 보안 이슈 후속.
+
+### 관찰 후보 3. 에너지 쇼크의 식품·생활비 전이
+- 현재 판정: News + YouTube 강세 / X 약세
+- 이유: 점심에는 전쟁 비용과 식품 물가 설명이 붙었다. 다만 실제 소셜 체감이나 추가 지역 기사 확산은 아직 약하다.
+- 저녁에 무엇을 다시 보면 되는지: 비료·식품·소매업 관련 기사, 각국 생활비 대응책, 농업·운송 비용 후속.
+
+### 관찰 후보 4. 공공부문 자동화와 AI coworker 감시형 도입
+- 현재 판정: News + YouTube 설명 강화
+- 이유: 오전의 일본 공공부문 AI 도입 후보와 점심의 AI coworker 영상이 연결되며 "사무 자동화의 실제 운영 방식"이 더 선명해졌다.
+- 저녁에 무엇을 다시 보면 되는지: 공공부문·고객지원·영업조직 사례가 추가로 붙는지, 감시·평가 반발이 기사화되는지.
 
 # Additional Midday Signals
 
 ## X
-- 점심 이후 신규 X 수집은 없다. 아래는 오전 수집본 중 저녁 재확인 가치가 커진 신호다.
-- `@WandileSihlobo`: 에너지 충격이 식품가격과 운송비를 통해 2차 물가로 번질 수 있다는 보조 신호.
-- `@OurWorldInData`: AI 일자리 불안 데이터를 감정이 아닌 구조 데이터로 고정해 주는 앵커.
-- `@ZDNET`: Gmail AI 실사용 사례가 “제품 데모”보다 일반 사무 자동화 확산을 더 빨리 보여줌.
+- Hormuz 최후통첩과 봉쇄 이슈가 여전히 trend 상단에 있어 에너지 리스크가 빠르게 식지 않았음을 보여 준다.
+- OpenAI 인력 확대 담론이 layoffs 일변도 시야를 깨며 AI boom의 인력 수요 축을 추가했다.
+- Gemma 4 quote-post는 발표 공지에서 로컬 실행·agentic workflow 반응 단계로 이동한 신호다.
 
 ## News
-- 점심 추가 뉴스 수집본은 없다. 아래는 오전 뉴스 중 점심 기준 해석 가치가 높아진 신호다.
-- `Bloomberg / U.S. AI data centers and Chinese electrical equipment`: AI 인프라 경쟁이 전력망 병목으로 번지는 대표 기사.
-- `OpenAI / Industrial policy for the Intelligence Age`: AI를 재교육, portable benefits, 전력망 투자 문제로 확장하는 1차 문서.
-- `Korea JoongAng Daily` + `Nippon.com / Jiji Press`: 민간 화이트칼라와 공공부문 자동화가 동시에 움직이기 시작한 조합.
+- Hon Hai 매출 기사로 Foxconn AI 서버 수요 신호가 X-only에서 news-confirmed로 올라왔다.
+- Oracle CFO 교체와 미국 전력 장비 부족 기사는 AI 인프라가 financing 다음 단계인 execution pressure에 들어갔음을 보여 준다.
+- OpenAI 정책 보도와 Anthropic 영국 유치 기사는 AI 기업이 산업정책·국가 경쟁의 일부가 되고 있음을 추가 확인했다.
 
 ## YouTube
-- 점심 신규 업로드 확인은 없다. 아래는 오전 기준 설명 가치가 붙은 신호다.
-- `Asia Centric: Iran War Drives New Global Urgency for Rare Earths`: 지정학 리스크를 AI 공급망까지 연결해 주는 설명형 콘텐츠.
-- `Bloomberg Tech 4/1/2026`: OpenAI valuation과 Claude 보안 이슈를 한 번에 묶어 자본시장 + 통제 프레임을 만든다.
-- `Vanguards of Health Care: Insilico on AI Use in Drug Discovery`: vertical AI 상용화의 학습 가치가 높아 저녁 재검토 재료로 남길 만하다.
+- OpenAI 정책 영상이 오전 문서의 산업정책 원문을 사람이 이해하기 쉬운 설명 층으로 바꿔 줬다.
+- Odd Lots의 AI jobs 영상은 layoffs 흐름에 "창업과 신규 일자리" 반대 신호를 붙였다.
+- 중동 전쟁 cost / food prices 영상은 에너지 쇼크를 유가 밖의 2차 파급으로 확장했다.
 
-# Delta Diagnostics
-- 비교 기준: `12_integrated_analysis_am.md`와 `12_close_handoff_am.md`, 그리고 09:43 생성된 X / News / YouTube collection 3종
-- 점심 이후 신규 수집 파일 수: 0
-- 현재 실행 시각: 2026-04-07 09:57:14 +09:00
-- 누락 또는 약한 입력:
-  - 점심 추가 X 수집 없음
-  - 점심 추가 News 수집 없음
-  - 점심 추가 YouTube 수집 없음
-  - 한국/일본 설명형 YouTube는 여전히 약함
-- 영향 범위:
-  - `새로 생긴 흐름` 판단 신뢰도는 낮고, 이번 delta는 기존 흐름의 우선순위 재조정 성격이 강하다.
-  - source별 `추가 신호`는 새 사건보다 오전 수집본의 재평가 비중이 높다.
-- 저녁 재검토 우선순위:
-  - AI skilling / workforce transition
-  - 희토류·전력장비 병목
-  - 공공부문 AI workload automation
-  - 오픈 툴링의 과금·보안 follow-through
+# Source Role Notes
+
+- X가 점심까지 새로 보여준 것
+  - Hormuz 이슈가 여전히 시장 불안의 fast surface라는 점
+  - OpenAI hiring 담론이 layoffs narrative를 완전히 대체하지는 않지만 균열을 낸다는 점
+  - Gemma 4가 발표에서 로컬 채택 반응으로 넘어가고 있다는 점
+- News가 점심에 추가 확인한 것
+  - AI 서버 수요의 숫자 앵커
+  - 데이터센터 build-out의 현금·전력·장비 병목
+  - AI 산업정책이 국가 유치 경쟁과 연결되기 시작했다는 점
+- YouTube가 점심에 설명을 보강한 것
+  - 에너지 충격의 비용·식품 물가 전이
+  - AI 정책 문서가 실제로 무엇을 제안하는지
+  - AI가 어떤 방식으로 일자리를 만들거나 감시형 업무 도구가 되는지
+
+# Analysis Diagnostics
+
+- 오전 이후 로컬 raw 추가 여부: 없음. 이번 실행에서 `13_*_raw.md` 3종을 새로 생성해 점심 보강분을 남겼다.
+- X 보강 한계: direct watch_accounts 신규 원문이 약했고 x.com trend summary 의존도가 높았다.
+- News 보강 한계: Bloomberg 비중이 높다. 다만 Reuters / OpenAI 정책 기사로 일부 균형을 맞췄다.
+- YouTube 보강 한계: Bloomberg 계열 편중이 계속된다. 점심에는 "새 이슈"보다 설명 레이어 보강용으로만 사용했다.
+- 핵심 변화 흐름 중 교차 확인 강도가 올라간 주제: 3개
+- 저녁에 재검토할 때 raw 우선 확인 포인트:
+  - Hormuz 통항과 유가/식품 후속
+  - AI 인프라 power equipment bottleneck / memory / capex
+  - AI jobs, skilling, surveillance의 반대 신호 추가 여부

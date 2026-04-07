@@ -21,6 +21,7 @@
 - `youtube-growth-os/data/processed/{{TODAY}}/08_youtube_collection.md`
 
 ## 주요 출력
+- `integrated-growth-os/data/outputs/{{TODAY}}/{{HH}}_raw_collection_log.md`
 - `integrated-growth-os/data/outputs/{{TODAY}}/12_integrated_clusters.md`
 - `integrated-growth-os/data/outputs/{{TODAY}}/12_integrated_analysis_am.md`
 - `integrated-growth-os/data/outputs/{{TODAY}}/12_close_handoff_am.md`
@@ -34,7 +35,8 @@
 - 셋을 교차 확인해 Cross-confirmed, X-only signal, News-only signal, YouTube-only signal로 나눈다.
 
 ## 추천 흐름
-1. 오전 수집 결과를 바탕으로 `12_integrated_analysis_am.md`를 만든다.
-2. 점심 전 다시 볼 핵심만 `12_close_handoff_am.md`에 압축한다.
-3. 하루를 마감할 때 `21_integrated_analysis.md`와 `22_close_handoff.md`로 이어간다.
-4. 자동화에서는 `prompts/company_12_morning_pipeline.md` 하나로 오전 수집부터 오전 handoff까지 묶을 수 있다.
+1. 18:00~06:00에는 `prompts/company_night_raw_pipeline.md`로 소스별 raw와 통합 log를 누적한다.
+2. 오전 수집 결과를 바탕으로 `12_integrated_analysis_am.md`를 만든다.
+3. 점심 전 다시 볼 핵심만 `12_close_handoff_am.md`에 압축한다.
+4. 하루를 마감할 때 `21_integrated_analysis.md`와 `22_close_handoff.md`로 이어간다.
+5. 자동화에서는 `prompts/company_12_morning_pipeline.md`로 오전 수집부터 오전 handoff까지 묶을 수 있다.

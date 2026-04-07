@@ -16,16 +16,22 @@
 - `../shared/docs/output_rules.md`
 
 ## 핵심 흐름
-1. 08:00 수집
-2. 12:00 주제 묶기
-3. 17:00 저녁용 handoff 만들기
-4. 21:00 집에서 분석 및 기록
+1. 18:00~06:00 raw 누적
+2. 08:00 수집
+3. 12:00 주제 묶기
+4. 17:00 저녁용 handoff 만들기
+5. 21:00 집에서 분석 및 기록
+
+## raw 레이어
+- 야간에는 `data/raw/{{TODAY}}/{{HH}}_collection_raw.md`에 시스템용 raw 재료를 누적한다.
+- raw 단계에서는 깊은 해석보다 원문 확보, 최신성, 수집 경로 기록을 우선한다.
 
 ## 주요 입력
 - `config/watch_accounts.md`
 - `config/watch_keywords.md`
 
 ## 주요 출력
+- `data/raw/{{TODAY}}/{{HH}}_collection_raw.md`
 - `data/processed/{{TODAY}}/08_collection.md`
 - `data/processed/{{TODAY}}/12_clusters.md`
 - `data/handoff/{{TODAY}}/evening_input.md`

@@ -17,12 +17,23 @@
 - `../shared/config/source_quality_rules.md`
 - `../shared/docs/output_rules.md`
 
+## 핵심 흐름
+1. 18:00~06:00 raw 누적
+2. 08:00 뉴스 수집
+3. 17:00 뉴스 handoff
+4. 21:00 뉴스 분석 및 기록
+
+## raw 레이어
+- 야간에는 `data/raw/{{TODAY}}/{{HH}}_news_raw.md`에 시스템용 raw 기사를 누적한다.
+- raw 단계에서는 기사 원문 확보, 최신성, 매체와 지역 메타데이터 정리에 집중한다.
+
 ## 주요 입력
 - `config/watch_sources.md`
 - `config/watch_topics.md`
 - `config/watch_regions.md`
 
 ## 주요 출력
+- `data/raw/{{TODAY}}/{{HH}}_news_raw.md`
 - `data/processed/{{TODAY}}/08_news_collection.md`
 - `data/handoff/{{TODAY}}/evening_news_input.md`
 - `notes/daily/{{TODAY}}_news_analysis.md`
