@@ -120,4 +120,4 @@
 - 오늘 행동으로 바로 연결된 핵심 흐름 수: 4
 - 특정 카테고리 쏠림 여부: AI 비중은 높지만 에너지·거시·투자 축이 함께 올라와 단일 테마 과열로 보긴 어렵다.
 - 추가 데이터가 필요한 영역: power equipment 직접 수혜 기업, public-sector AI 반복 사례, Gemma 4 벤치마크, AI skilling KPI
-- git 반영 상태: 저녁 문서/운영 문서 갱신 후 commit 및 push 시도를 별도로 수행한다.
+- git 반영 상태: `docs: update evening analysis and close handoff for 2026-04-07` (`ac013cd`)로 commit했다. `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했고, 다음 수동 액션은 자격 증명이 있는 셸에서 같은 명령을 다시 실행하는 것이다.

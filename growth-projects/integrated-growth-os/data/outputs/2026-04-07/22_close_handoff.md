@@ -58,4 +58,4 @@
 - 내일 첫 행동: cross-asset 확인 후 AI 인프라 숫자 메모를 만들고 Gemma 4 / Claude Code / MCP 비교를 바로 시작한다.
 - 후보 업데이트: 즉시 추가 후보는 유지했고 관찰 후보는 public-sector AI, OpenClaw, customer-service labor redesign 중심으로 압축했다.
 
-- 참고: 오늘 첫 저녁 최종본이다. 저녁 직전 추가 raw가 없어 `11_*` / `13_*` 누적 raw를 재정렬해 사용했다.
+- 참고: 오늘 첫 저녁 최종본이다. 저녁 직전 추가 raw가 없어 `11_*` / `13_*` 누적 raw를 재정렬해 사용했다. `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했고, 다음 수동 액션은 자격 증명이 있는 셸에서 같은 명령을 다시 실행하는 것이다.
