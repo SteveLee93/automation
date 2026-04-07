@@ -1,6 +1,6 @@
 # PROJECT_OPERATING_GUIDE
 
-- 마지막 업데이트: 2026-04-07 10:17:29 +09:00
+- 마지막 업데이트: 2026-04-07 14:44:38 +09:00
 
 ## 프로젝트 목적
 
@@ -47,6 +47,19 @@
 - 2순위: `growth-projects/integrated-growth-os/data/outputs/<DATE>/22_close_handoff.md`
 - 3순위: 소스별 `08_*` collection 3종
 - 4순위: 당일 candidate 요약 5종
+
+## 아침 / 점심 / 저녁 결과 활용 방법
+
+- 아침
+  - `11_*_raw.md`와 소스별 `08_*` collection을 읽고 `12_integrated_analysis_am.md`로 기준선을 만든다.
+  - 오전 handoff는 점심 전에 다시 볼 주제와 즉시 추가 가치가 있는 watch 후보만 남긴다.
+- 점심
+  - `13_*_raw.md`와 `13_*_delta.md`를 이용해 오전 대비 무엇이 강해졌는지, 무엇이 아직 관찰 단계인지 분리한다.
+  - 점심 문서는 새 사실보다 `강도 변화`와 `추가 확인 포인트`를 남기는 데 집중한다.
+- 저녁
+  - `11_*` / `13_*` raw, 소스별 `08_*`, `12_*`, `13_*`, candidate 문서를 다시 모아 `21_integrated_analysis.md`와 `22_close_handoff.md`를 만든다.
+  - late-day raw가 없으면 그 사실을 `08_*`, `21_*`, `22_*`, Diagnostics에 명시하고 재수집보다 최종 재정렬에 집중한다.
+  - 저녁에는 루트 문서 3종과 git 반영까지 함께 끝내는 것을 기본 흐름으로 둔다.
 
 ## watch 반영 방법
 

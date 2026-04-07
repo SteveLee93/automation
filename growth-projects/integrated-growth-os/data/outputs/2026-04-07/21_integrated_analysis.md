@@ -1,133 +1,123 @@
-# Final Integrated Analysis
+# 21 Integrated Analysis
+
 - 날짜: 2026-04-07
-- 작성 시각: 2026-04-07 10:17:29 +09:00
+- 작성 시각: 2026-04-07 14:44:38 +09:00
 - 입력 소스: X / News / YouTube
 - 오늘의 핵심 흐름 수: 4
 - 오늘 가장 중요한 흐름 3개 요약:
-  - 에너지/Hormuz 충격은 유가 뉴스가 아니라 물가·금리·AI 인프라 비용까지 함께 흔드는 최우선 변수로 확정됐다.
-  - AI 인프라 경쟁은 반도체 단일 테마가 아니라 전력, 회사채, 국가투자, 메모리 공급망이 묶인 자본 사이클로 굳어졌다.
-  - 오픈 툴링과 업무 재설계 흐름은 오늘부터 `성능 비교`보다 `비용·보안·통제·승인 설계`로 읽는 편이 맞았다.
-- 내일 이어서 볼 추가 확인 포인트 4개:
-  - `AI skilling / workforce transition`가 late-day 반응과 실제 KPI까지 붙는지
-  - `희토류·전력장비 병목`이 X와 시장 반응에서도 추가 확인되는지
-  - `공공부문 AI workload automation`이 일본 단발 기사에서 끝나지 않는지
-  - `한국 AI 조달·디지털 규제 영향`이 실제 투자 지연 사례로 이어지는지
+  - Hormuz와 에너지 충격은 저녁까지도 유가, 물가, 운임, AI 인프라 비용을 함께 흔드는 최우선 기준선으로 남았다.
+  - AI 인프라 흐름은 Hon Hai 수요, QTS 46억달러 조달, Microsoft Japan 100억달러 투자, 전력 장비 병목이 합쳐지며 자본 사이클로 굳어졌다.
+  - AI는 제품 데모보다 노동 재설계, 재교육, 정책, 승인 구조로 읽는 편이 오늘 훨씬 유효했다.
 - 오늘 최종 한줄 판단:
-  - 오늘의 핵심은 `지정학 -> 유가/물가 -> 전력·공급망 -> AI 투자 판단`으로 이어지는 연결고리를 보는 것이었다.
-  - AI는 `무슨 모델이 더 좋나`보다 `누가 배포권·수익화·통제권을 가져가나`가 더 중요한 질문이 됐다.
-  - 내일 아침 첫 우선순위는 cross-asset 확인, AI 인프라 숫자 메모 정리, 오픈 툴 비교표 업데이트다.
-- 입력 누락 여부: 저녁 전용 X / News / YouTube 추가 collection 입력은 없다. 2026-04-07 오전 09:43 생성된 collection 3종과 오전·점심 통합 문서를 기준선으로 사용했다.
-- 비교 기준 메모: 오늘 첫 저녁 실행이다. 오전·점심 모두 같은 오전 baseline 위에서 작성돼 중요도 상승 방향은 비교 가능하지만 late-day follow-through 판정은 약하다.
+  - X는 fast signal을 유지했고, 뉴스가 숫자와 제도를 잠갔으며, YouTube가 비용 전이와 적용 장면을 설명해 오늘의 결론을 확정했다.
+  - 오늘의 최종 프레임은 `에너지 shock -> 인프라 execution -> 업무 재설계`다.
+  - 내일 첫 우선순위는 cross-asset 확인, AI 인프라 숫자 메모, Gemma 4 / Claude Code / MCP 비교다.
+- 초기 실행 여부: 예. 오늘 첫 저녁 최종본이며 late-day 신규 raw 없이 누적 raw 재정렬 중심으로 마감했다.
+- 누락 입력 여부: 저녁 직전 추가 X / News / YouTube raw는 없다. 종가 이후 반응과 late-day follow-through 판정은 약하다.
+- raw 활용 여부: 예. `11_*_raw.md`, `13_*_raw.md`, 소스별 `08_*` processed, `12_*` / `13_*` 통합 결과, 당일 candidate 문서를 함께 사용했다.
 
-## Final Core Flow 1
-- 제목: 에너지/Hormuz 충격이 거시 변수에서 AI 공급망 2차 리스크로 승격
+## 오늘 하루 기준 최종 핵심 흐름 4개
+
+### 1. Hormuz·에너지 충격은 "봉쇄 공포"보다 "고비용 지속" 흐름으로 굳어졌다
 - 중요도: high
-- 오전 -> 점심 -> 저녁 변화: 오전 `거시 앵커` -> 점심 `희토류·전력장비 2차 압박` -> 저녁 `내일도 가장 먼저 체크할 최우선 변수`
-- 최종 핵심 요약: 한국 CPI 2.2%, 러시아 휘발유 수출 금지, IMF·AMRO의 물가 경고, Hormuz tail risk 해설이 한 줄로 연결되면서 오늘의 에너지 충격은 단순 유가 뉴스가 아니라 인플레이션·금리·AI 인프라 비용을 함께 흔드는 변수로 확정됐다. 저녁 기준에는 rare earth와 전력장비 병목까지 붙어 해석 범위가 더 넓어졌다.
-- X에서 보인 최종 신호: `@tEconomics`의 한국 CPI 2.2%, `@ReutersWorld`의 한국 PMI 확장, `@Reuters`의 러시아 휘발유 수출 금지 연장과 Foxconn 지정학 경고, `@business`의 중국 국채 전환점이 가격·포지셔닝 언어를 먼저 만들었다.
-- 뉴스에서 확인된 사실: IMF는 미국 성장률 2.4% 전망 아래 에너지발 물가 상방 리스크를 경고했고, AMRO는 한국 물가 전망을 2.3%로 올렸다. Bloomberg는 미국 AI 데이터센터가 중국산 전력장비에 의존한다는 점을 짚어 에너지·공급망·AI 인프라를 연결했다.
-- YouTube에서 얻은 설명/맥락: `All Options Considered`, `Bloomberg Surveillance`, `Asia Centric`은 Hormuz 리스크가 유가, 신용, FX, rare earth, 전력장비 병목까지 어떻게 번지는지 설명했다.
-- 왜 중요한가: 오늘의 거시 판단과 AI 투자 판단이 같은 원인 변수에 묶였다는 점이 확인됐다.
-- 나와 어떤 관련이 있는가: 거시 이벤트를 가격 반응, 정책 반응, 공급망 제약으로 바로 묶는 메모 습관이 필요하다. AI/반도체 판단도 유가·금리와 분리해서 볼 수 없다는 점이 분명해졌다.
-- 추가 확인 포인트: rare earth / transformer / switchgear 후속 기사, 운임·보험료 상승, 한국 수입물가 기대 반영 여부.
-- 내일 이어질 최소 행동: 브렌트유, DXY, 미국 10년물, 코스피와 `rare earth` / `electrical equipment` 헤드라인을 한 화면에서 다시 확인하고 한 줄 판정을 남긴다.
+- 최종 핵심 요약: 저녁 기준 결론은 "완전 차단 여부"보다 "통항이 일부 회복돼도 비용과 불안이 높은 상태가 계속되는가"가 더 중요하다는 것이다. 이 흐름은 유가만이 아니라 식품, 운임, 물가 기대, 데이터센터 전력·장비 비용 해석까지 같이 흔들었다.
+- X에서 보인 최종 신호: `@Reuters`의 러시아 휘발유 수출 금지 연장과 X Trends의 Hormuz 봉쇄·최후통첩 요약이 하루 종일 빠른 불안 신호 상단에 남았다.
+- 뉴스에서 확인된 사실: Bloomberg의 `HORMUZ TRACKER`는 주간 통항이 일부 회복돼도 정상화와는 거리가 있음을 보여줬고, IMF와 AMRO는 에너지발 물가 상방 리스크를 공식 문서로 확인했다.
+- YouTube에서 얻은 설명/맥락: `All Options Considered`, `The Cost of the Middle East Conflict`, `Will the Iran War Send Food Prices Soaring?`가 유가 충격을 신용·재정 부담·식품 물가 전이까지 확장해 설명했다.
+- 왜 중요한가: 오늘의 거시 판단과 AI 인프라 판단이 같은 에너지 비용 변수에 묶였기 때문이다.
+- 나와 어떤 관련이 있는가: 지정학 이벤트를 `헤드라인 -> 가격 -> 정책 -> 공급망` 순서로 연결해 기록해야 내 투자·학습 메모가 더 재사용 가능해진다.
+- 추가 확인 포인트: 브렌트유, 해상 운임/보험료, 식품·비료 후속 기사, rare earth / electrical equipment 연쇄 보도.
+- 내일 이어질 최소 행동 1개: 브렌트유, DXY, 미국 10년물, 코스피와 `Hormuz`, `shipping`, `electrical equipment` 헤드라인을 한 화면에서 다시 확인한다.
 
-## Final Core Flow 2
-- 제목: AI 인프라 자본 사이클이 전력·메모리·회사채·국가투자로 굳어짐
+### 2. AI 인프라는 capex 뉴스가 아니라 전력·메모리·회사채·국가투자 사이클로 확정됐다
 - 중요도: high
-- 오전 -> 점심 -> 저녁 변화: 오전 `capex 숫자 강세` -> 점심 `구조적 자본 사이클` -> 저녁 `오늘 가장 선명한 투자/산업 흐름`
-- 최종 핵심 요약: X에서는 300mm 팹 장비 투자와 Foundry 2.0, Foxconn 매출처럼 숫자가 먼저 붙었고, 뉴스에서는 QTS 46억달러 회사채, Microsoft 일본 100억달러 투자, Samsung-Mistral 협력, 데이터센터 전력 병목이 이 흐름을 사실로 고정했다. 저녁 기준에는 `칩 뉴스`보다 `power + financing + sovereign investment + memory`로 보는 편이 더 정확하다.
-- X에서 보인 최종 신호: `@SEMIconex`의 2026년 1,330억달러 / 2027년 1,510억달러 300mm 장비 투자 전망, `@semivision_tw`의 Foundry 2.0 3,200억달러 기대, `@Reuters`의 Foxconn 1분기 매출 +29.7%가 하드웨어 수요와 공급망 압력을 수치로 보여줬다.
-- 뉴스에서 확인된 사실: Bloomberg는 Microsoft 연계 데이터센터 운영사 QTS의 46억달러 조달과 미국 전력장비 병목을 보도했고, Bloomberg/Source Asia와 Yonhap는 Microsoft 일본 100억달러 투자와 Samsung-Mistral 메모리 협력 논의를 통해 국가 전략과 공급망 파트너십 레이어를 더했다.
-- YouTube에서 얻은 설명/맥락: 직접적인 인프라 해설은 약했지만 `Asia Centric`의 희토류 긴급성과 `Vanguards of Health Care`의 vertical AI 상용화 사례가 왜 인프라 지출 압력이 계속 커지는지 간접 설명을 보탰다.
-- 왜 중요한가: 수치, 전력, 채권시장, 국가투자가 동시에 움직이면 하루 뉴스가 아니라 중기 산업 사이클이 된다.
-- 나와 어떤 관련이 있는가: 투자 메모에서는 반도체만이 아니라 데이터센터, 전력장비, 전략소재, 메모리 공급망을 한 묶음으로 봐야 한다. 포트폴리오 설명에서도 앱 기능보다 운영·인프라 레이어를 읽는 능력이 차별점이 된다.
-- 추가 확인 포인트: Foundry 2.0 원 리포트, Samsung 잠정실적과 HBM 수요 톤, QTS 조달 조건, 변압기·스위치기어 병목의 추가 확인.
-- 내일 이어질 최소 행동: `1330억달러 / 1510억달러 / 46억달러 / 100억달러 / +29.7%` 숫자를 한 장 메모로 묶고 후속 기사만 덧붙인다.
+- 최종 핵심 요약: X의 Foxconn 수요 신호, 뉴스의 QTS 46억달러 조달과 Microsoft Japan 100억달러 투자, Samsung-Mistral 협력, Oracle CFO 교체, 전력 장비 병목이 한 흐름으로 정렬됐다. 저녁 판단에서는 `AI 모델 뉴스`보다 `돈을 어떻게 조달하고, 전력을 어떻게 확보하고, 공급망을 어떻게 묶는가`가 더 중요했다.
+- X에서 보인 최종 신호: `@Reuters`의 Foxconn 1분기 매출 +29.7%와 지정학 경고가 AI 서버 수요는 강하지만 execution risk가 같이 붙는다는 점을 먼저 보여줬다.
+- 뉴스에서 확인된 사실: Bloomberg는 QTS의 46억달러 조달, Hon Hai 수요 유지, Oracle의 데이터센터 build-out 대응, 미국 전력 장비 병목을 보도했고, Microsoft Japan 100억달러 투자와 Samsung-Mistral 메모리 협력 논의가 공급망과 국가 전략 레이어를 보탰다.
+- YouTube에서 얻은 설명/맥락: `Asia Centric`의 rare earths 설명은 전력·장비 병목이 왜 AI build-out 병목으로 이어지는지 보여줬고, `Vanguards of Health Care`는 vertical AI 상용화가 인프라 수요를 계속 밀어 올리는 배경을 보강했다.
+- 왜 중요한가: 숫자, 자금조달, 전력, 공급망이 동시에 움직이면 하루짜리 뉴스가 아니라 중기 산업 사이클로 봐야 한다.
+- 나와 어떤 관련이 있는가: AI를 보는 관점이 앱 기능에서 인프라와 운영 레이어로 이동해야 하고, 투자 메모도 반도체 단일 테마에서 벗어나야 한다.
+- 추가 확인 포인트: QTS 조달 조건, Samsung/HBM 후속, 변압기·스위치기어 병목의 직접 수혜/피해 기업, Oracle/OCI capex 톤.
+- 내일 이어질 최소 행동 1개: `QTS 46억달러`, `Microsoft Japan 100억달러`, `Foxconn +29.7%`, `Samsung-Mistral`, `power bottleneck`을 1페이지 숫자 메모로 묶는다.
 
-## Final Core Flow 3
-- 제목: 오픈모델·오픈에이전트 경쟁은 성능보다 개방성·비용·보안·통제로 정리됨
+### 3. AI의 실전 가치는 노동 재설계·재교육·정책 설계 쪽에서 더 선명해졌다
 - 중요도: high
-- 오전 -> 점심 -> 저녁 변화: 오전 `개발자 채택 신호` -> 점심 `과금·보안 레이어 부상` -> 저녁 `독립 추적해야 할 툴 선택 프레임`
-- 최종 핵심 요약: Gemma 4, MCP, OpenClaw는 오늘 하루 내내 `개방성` 쪽 신호를 밀어 올렸지만, Anthropic 종량 과금과 Claude 소스 노출 이슈는 결국 통제와 비용 구조가 같이 강화된다는 점을 보여줬다. 저녁 기준에는 모델 성능 순위보다 `누가 문서 경로와 배포권, 보안 경계, 수익화 구조를 쥐는가`가 더 중요한 판단 기준이 됐다.
-- X에서 보인 최종 신호: `@Google`의 Gemma 4 Apache 2.0 공개, `@PolkadotDevs`의 MCP 문서 연결, builder 계정들의 로컬·agentic workflow 신호가 오픈 툴링이 실제 워크플로 경로로 들어오는 장면을 먼저 보여줬다.
-- 뉴스에서 확인된 사실: TechCrunch는 Anthropic이 Claude Code의 외부 하네스 연동에 추가 종량 과금을 붙였다고 보도했고, Microsoft의 자체 기반모델 공개는 폐쇄형 제품 스택 강화 흐름을 보탰다. 뉴스는 오픈 툴링 경쟁이 곧 비용 구조와 사업 통제로 연결된다는 점을 확인해줬다.
-- YouTube에서 얻은 설명/맥락: `Meet OpenClaw`, `Bloomberg Tech 4/1/2026`는 중국의 OpenClaw 확산과 Claude 보안 이슈를 함께 다루며 채택과 보안이 동시에 커지는 구조를 쉽게 설명했다.
-- 왜 중요한가: 내 자동화 스택에서 무엇을 기본값으로 둘지, 어디까지 오픈소스를 쓰고 어디서 관리형 도구로 넘길지 결정하는 기준이 된다.
-- 나와 어떤 관련이 있는가: 코딩 자동화, 문서 연결, 에이전트 워크플로 설계에서 가장 직접적인 주제다. 모델 성능보다 운영비와 통제 설계가 더 큰 차이를 만들 수 있다.
-- 추가 확인 포인트: Gemma 4의 실제 로컬 실행 품질, Anthropic 과금이 실사용 비용을 얼마나 바꾸는지, Claude leak의 1차 출처 확인.
-- 내일 이어질 최소 행동: Gemma 4 / Claude Code / MCP를 `개방성 / 비용 / 보안 / 로컬 실행성` 네 기준으로 비교해 기본 스택 가설을 한 줄로 정한다.
+- 최종 핵심 요약: X는 CarPlay, Gmail AI, OpenAI hiring 담론처럼 현장 체감 신호를 먼저 던졌고, 뉴스는 OpenAI 산업정책, 미국 감원, 한국 화이트칼라 약화, 일본 공공 자동화를 사실로 잠갔다. YouTube는 정책 설명, 신규 일자리 논쟁, AI coworker 사례를 붙여 "무슨 모델이 더 좋은가"보다 "일을 어떻게 다시 나누는가"가 오늘 더 중요한 질문임을 보여줬다.
+- X에서 보인 최종 신호: `@OpenAI`의 CarPlay 확장, `@ZDNET`의 Gmail AI 실사용, X Trends의 OpenAI hiring 확대 담론이 업무 재설계와 고급 인력 수요 반대 신호를 빠르게 올렸다.
+- 뉴스에서 확인된 사실: OpenAI는 재교육·portable benefits·전력망을 포함한 산업정책 초안을 냈고, Bloomberg와 Korea JoongAng Daily는 AI 도입과 감원/화이트칼라 약화를, Nippon.com / Jiji Press는 공공부문 workload automation을 보여줬다.
+- YouTube에서 얻은 설명/맥락: `OpenAI Releases Policy Recommendations for AI Age`, `Where AI Will Actually Create Jobs`, `Meet the New AI Coworker...`가 분배, 신규 고용, 감시형 자동화를 각각 설명 가능한 구조로 바꿔 줬다.
+- 왜 중요한가: 이 흐름이 내일 바로 행동으로 옮길 수 있는 학습·실험 주제이고, 동시에 중기 커리어 방향과도 직결되기 때문이다.
+- 나와 어떤 관련이 있는가: 기능 추가보다 승인 단계, 역할 분담, 관측 가능성, 재교육 포인트 설계가 더 중요해진다.
+- 추가 확인 포인트: 재교육 KPI, 공공부문 확산 사례, hiring vs layoffs의 직접 수치, 고객지원·사무 자동화의 비용 절감 데이터.
+- 내일 이어질 최소 행동 1개: 내 반복 업무 1개를 골라 승인 단계 1개를 줄이는 실험안을 적고, 필요한 skill gap 1개를 같이 적는다.
 
-## Final Core Flow 4
-- 제목: AI는 제품 데모보다 업무 재설계·재교육·노동구조 변화로 읽는 편이 맞았다
-- 중요도: high
-- 오전 -> 점심 -> 저녁 변화: 오전 `학습 가치 높은 흐름` -> 점심 `재교육/공공자동화 관찰 후보` -> 저녁 `내 행동 설계와 커리어 판단에 직접 연결되는 흐름`
-- 최종 핵심 요약: X의 CarPlay, Gmail AI, AI coworker, AI 일자리 불안 데이터는 현장 적용 장면을 먼저 보여줬고, 뉴스의 OpenAI 산업정책, 미국 감원, 한국 화이트칼라 약화, 일본 공공부문 AI는 이를 구조 변화로 확인했다. YouTube의 Concentrix·Insilico·AI coworker 해설이 붙으면서 오늘 AI의 핵심은 모델 데모가 아니라 업무를 다시 나누는 방식이라는 결론이 더 강해졌다.
-- X에서 보인 최종 신호: `@OpenAI`의 ChatGPT CarPlay, `@business`의 AI coworker 사례, `@ZDNET`의 Gmail AI 실사용, `@OurWorldInData`의 AI 일자리 불안 데이터가 실제 사용과 노동 전환 신호를 먼저 올렸다.
-- 뉴스에서 확인된 사실: OpenAI는 산업정책 문서에서 재교육과 생산성 이익 공유를 꺼냈고, Bloomberg와 Korea JoongAng Daily는 AI 도입과 함께 미국 감원 공고 확대와 한국 화이트칼라 반복업무 약화를 보도했다. Nippon.com/Jiji는 공공부문 AI workload automation의 초기 사례를 보탰다.
-- YouTube에서 얻은 설명/맥락: `Wall Street Pessimism...Your AI Coworker Might Snitch`, `Tech Disruptors` 계열 고객지원 해설, `Vanguards of Health Care`는 AI가 실제 조직 운영과 산업 현장에 어떻게 들어오는지 설명했다.
-- 왜 중요한가: 내일 바로 행동으로 옮길 수 있는 주제이면서, 동시에 중기 커리어 포지셔닝까지 바꾸는 흐름이기 때문이다.
-- 나와 어떤 관련이 있는가: 기능 추가보다 승인 단계, 역할 분담, 관측 가능성, 사람-에이전트 인터페이스 설계가 더 중요해진다. 포트폴리오도 `무엇을 만들었나`보다 `어떻게 업무를 재설계했나`로 보여주는 편이 낫다.
-- 추가 확인 포인트: 고객지원·사무자동화의 실제 비용 절감 수치, 공공부문 확산 사례, 재교육 프로그램의 KPI와 고용 영향.
-- 내일 이어질 최소 행동: 내 반복 업무 1개와 승인 단계 1개를 적고, 어떤 작업을 AI에 넘기고 무엇을 사람 확인으로 남길지 바로 실험안으로 바꾼다.
+### 4. Gemma 4·MCP·OpenClaw 흐름은 "성능 경쟁"보다 "개방성·보안·통제" 프레임으로 봐야 한다
+- 중요도: medium
+- 최종 핵심 요약: X에서는 Gemma 4와 MCP가 builder workflow 신호로 올라왔고, YouTube는 OpenClaw 확산과 model security 이슈를 설명했다. 뉴스는 Microsoft의 자체 기반모델 공개와 AI 주권 경쟁 기사로, 도구와 모델 선택이 결국 비용 구조와 통제권 문제로 귀결된다는 점을 보강했다.
+- X에서 보인 최종 신호: `@Google`의 Gemma 4 공개, `@PolkadotDevs`의 MCP 사례, `@hungryturbo` / `@0xSero`의 로컬 실행 반응이 발표를 실사용 논의로 옮겼다.
+- 뉴스에서 확인된 사실: TechCrunch의 Microsoft 자체 모델 기사와 Reuters 계열 Anthropic 유치 기사는 오픈/폐쇄 스택 경쟁이 사업 전략과 국가 전략 층으로 같이 올라가고 있음을 보여줬다.
+- YouTube에서 얻은 설명/맥락: `Meet OpenClaw`, `Bloomberg Tech 4/1/2026`가 채택 속도, valuation, source security를 한 번에 보여주며 tool-choice 기준을 더 분명하게 했다.
+- 왜 중요한가: 자동화 스택을 고를 때 모델 성능 alone보다 라이선스, 로컬 실행, 보안 경계, 문서 연결성이 더 큰 차이를 만들기 때문이다.
+- 나와 어떤 관련이 있는가: 내가 만드는 워크플로의 기본 도구 선택과 비용 구조에 바로 연결된다.
+- 추가 확인 포인트: Gemma 4 실사용 벤치마크, model leak 1차 출처, MCP 연결 실무 사례, 도구별 과금 변화.
+- 내일 이어질 최소 행동 1개: Gemma 4 / Claude Code / MCP를 `개방성 / 비용 / 보안 / 로컬 실행성` 네 기준으로 비교해 기본 스택 가설을 정한다.
 
-# Additional Confirmation Points
-- `AI skilling / workforce transition`: OpenAI, Microsoft Japan, Korea JoongAng Daily까지는 정렬됐지만 X의 late-day 반응과 실제 채용·재교육 수치가 더 필요하다.
-- `희토류·전력장비 병목`: 뉴스와 YouTube 설명은 충분히 강하지만 X의 직접 숫자·시장 언급이 아직 약해 내일 교차 확인이 필요하다.
-- `공공부문 AI workload automation`: 일본 기사 1건으로는 약하다. 정부·공공기관의 반복업무 자동화 사례가 다른 지역에서도 붙는지 봐야 한다.
-- `한국 AI 조달·디지털 규제 영향`: 정책 중요도는 높지만 X·YouTube 반응이 약하다. 실제 투자·도입 지연 사례가 나와야 핵심 흐름으로 올릴 수 있다.
+## 내일 이어서 볼 추가 확인 포인트 4개
+- Hormuz 통항 정상화 속도와 운임·보험료·식품 물가 후속이 실제로 붙는지 확인한다.
+- AI 인프라 build-out에서 power equipment bottleneck과 bond financing pressure가 더 기사화되는지 본다.
+- `AI skilling / workforce transition`가 정책 문구를 넘어 실제 KPI나 기업 프로그램으로 확장되는지 본다.
+- Gemma 4 / OpenClaw / MCP 흐름이 벤치마크, pricing, security 후속으로 이어지는지 확인한다.
 
 # Final Cross-Confirmed Signals
 ## 오늘 X와 뉴스가 함께 강하게 확인한 흐름
-- 한국 CPI 2.2%와 IMF·AMRO 물가 경고가 에너지 충격을 실제 인플레이션 변수로 고정했다.
-- 300mm capex 1,330억달러/1,510억달러, Foxconn +29.7%, QTS 46억달러, Microsoft Japan 100억달러가 AI 인프라를 숫자로 묶었다.
-- Gemma 4 / MCP 신호와 Anthropic 과금 뉴스가 오픈 툴링의 비용·통제 레이어를 함께 드러냈다.
+- Hormuz·에너지 충격은 X의 fast signal과 Bloomberg / IMF / AMRO 기사로 함께 잠겼다.
+- Foxconn 수요, QTS 조달, Microsoft Japan 투자, Samsung-Mistral 협력은 AI 인프라 capex 흐름을 숫자로 정렬했다.
+- CarPlay / Gmail AI / hiring 담론과 layoffs / white-collar 약화 / public-sector automation이 AI 노동 전환을 같이 끌어올렸다.
 
 ## 오늘 뉴스와 YouTube가 함께 이해를 깊게 만든 흐름
-- Hormuz 리스크는 유가 이벤트가 아니라 신용·FX·희토류·전력장비 병목까지 번지는 구조로 설명됐다.
-- OpenClaw 확산과 Claude 보안 이슈는 개방형 에이전트 채택이 곧 통제·보안 문제라는 점을 선명하게 만들었다.
-- OpenAI 산업정책, 미국 감원, Concentrix/Insilico 사례가 AI를 업무 재설계와 상용화 흐름으로 묶어줬다.
+- Hormuz는 `부분 회복 + 높은 비용 지속`이라는 구조로 설명이 정리됐다.
+- OpenAI 정책 초안과 AI jobs explanation은 분배, 재교육, 신규 고용 논점을 더 선명하게 만들었다.
+- 전력 장비 병목과 rare earths 설명이 AI build-out의 실행 제약을 한 층 깊게 보여줬다.
+- 참고: YouTube는 late-day 신규 raw가 없고 Bloomberg 계열 의존이 높아 설명 폭은 좋지만 채널 다양성은 약했다.
 
 ## 오늘 X가 먼저 잡고, 저녁에 중요성이 높아진 흐름
-- Gemma 4 Apache 2.0과 MCP 문서 연결은 저녁에 `도구 선택 기준` 주제로 승격됐다.
-- 한국 CPI·중국 국채 전환점·Foxconn 지정학 경고는 저녁에 `거시 + AI 공급망` 프레임으로 확대됐다.
-- CarPlay·Gmail AI·AI coworker 실사용 신호는 저녁에 `노동 전환과 승인 설계` 주제로 재해석됐다.
+- Hormuz trend summary는 밤까지도 fast surface로 남아 저녁 최종 판단의 상단에 유지됐다.
+- Gemma 4 / MCP builder 반응은 단순 발표에서 tool-choice 판단 주제로 승격됐다.
+- OpenAI hiring / CarPlay / Gmail AI 신호는 저녁에 `업무 재설계` 프레임으로 다시 묶였다.
 
 # Action Notes
-- 오늘 결론으로 남길 행동: `에너지 대시보드`, `AI 인프라 숫자 메모`, `오픈 툴 비교표`를 서로 다른 노트로 두지 말고 한 장으로 묶는다.
-- 내일 아침 첫 행동 1: 브렌트유, DXY, 미국 10년물, 코스피, 삼성전자 관련 헤드라인을 먼저 확인해 거시 가설이 유지됐는지 본다.
-- 내일 아침 첫 행동 2: QTS / Microsoft Japan / Samsung-Mistral / 전력장비 병목을 1페이지 메모로 재정리한다.
-- 내일 아침 첫 행동 3: Gemma 4 / Claude Code / MCP 비교 후 승인 단계 1개를 줄이는 워크플로 실험안을 적는다.
-- 기록으로 남길 링크/주제 1: [OpenAI Industrial Policy](https://openai.com/index/industrial-policy-for-the-intelligence-age/)
-- 기록으로 남길 링크/주제 2: [QTS 46억달러 조달 기사](https://www.bloomberg.com/news/articles/2026-04-06/blackstone-backed-data-center-firm-qts-kicks-off-bond-sale?srnd=phx-ai)
-- 기록으로 남길 링크/주제 3: [All Options Considered: Iran War, Hormuz and Market Tails](https://www.bloomberg.com/news/audio/2026-04-01/all-options-considered-iran-war-hormuz-and-market-tails)
+- 오늘 결론으로 남길 행동 1: 에너지 shock, AI 인프라, tool-choice 메모를 따로 두지 말고 한 장 상황판으로 묶는다.
+- 오늘 결론으로 남길 행동 2: 내일 아침 확인 순서를 `cross-asset -> AI infra numbers -> workflow experiment`로 고정한다.
+- 오늘 기록으로 남길 링크 1: [OpenAI Industrial Policy](https://openai.com/index/industrial-policy-for-the-intelligence-age/)
+- 오늘 기록으로 남길 링크 2: [HORMUZ TRACKER](https://www.bloomberg.com/news/articles/2026-04-04/hormuz-tracker-weekly-transits-reach-highest-since-war-began)
+- 오늘 기록으로 남길 링크 3: [OpenAI Policy Recommendations Video](https://www.bloomberg.com/news/videos/2026-04-06/openai-releases-policy-recommendations-for-ai-age-video?srnd=phx-technology)
+- 내일 아침 첫 행동 1: 브렌트유, DXY, 미국 10년물, 코스피, `Hormuz` 관련 헤드라인을 먼저 본다.
+- 내일 아침 첫 행동 2: `QTS 46억달러 / Microsoft Japan 100억달러 / Foxconn +29.7% / Samsung-Mistral / power bottleneck` 메모를 만든다.
+- 내일 아침 첫 행동 3: Gemma 4 / Claude Code / MCP 비교 후 승인 단계 1개를 줄이는 실험안을 바로 적는다.
 
 # Growth Notes
-- 오늘 배운 관점 1: 지정학 뉴스는 헤드라인보다 `유가 -> 물가 -> 금리 -> 인프라 비용` 전이 경로로 읽어야 실제 판단에 도움이 된다.
-- 오늘 배운 관점 2: AI 인프라 테마는 반도체만으로 설명되지 않고 전력, 채권, 국가 전략, 메모리 공급망을 같이 봐야 한다.
-- 오늘 배운 관점 3: 오픈 툴링 경쟁은 성능 비교보다 라이선스, 비용, 보안, 문서 연결성의 경쟁으로 바뀌고 있다.
-- 내 커리어/개발 역량과 연결되는 포인트 1: 에이전트 워크플로 설계에서는 모델 선택만큼 승인 UX와 관측 가능성 설계가 중요하다.
-- 내 커리어/개발 역량과 연결되는 포인트 2: 기능 데모보다 업무 흐름 재설계와 운영 레벨의 설명 능력이 차별점이 된다.
-- 내 커리어/개발 역량과 연결되는 포인트 3: 거시·정책·인프라를 함께 읽을 수 있어야 AI 자동화 결과물의 설득력이 올라간다.
-- 앞으로 watch 목록에 반영할 만한 신호 1: 오픈모델 라이선스 변화와 외부 하네스 과금 정책
-- 앞으로 watch 목록에 반영할 만한 신호 2: 데이터센터 전력장비 병목과 회사채·국가투자 조달 구조
-- 앞으로 watch 목록에 반영할 만한 신호 3: AI skilling / workforce transition의 실제 KPI와 공공부문 확산 여부
+- 오늘 배운 관점 1: 에너지 뉴스는 유가 한 줄이 아니라 물가, 운임, 식품, AI build-out 비용까지 이어지는 전이 경로로 봐야 한다.
+- 오늘 배운 관점 2: AI 인프라 흐름은 제품 발표보다 전력, 채권, 국가 투자, 공급망 조합에서 더 선명하게 드러난다.
+- 오늘 배운 관점 3: AI의 실제 가치는 모델 데모보다 노동 재설계와 승인 구조 변화에서 먼저 드러난다.
+- 나와 연결되는 포인트 1: 자동화 설계에서는 기능 추가보다 승인 UX와 관측 가능성 설계가 중요하다.
+- 나와 연결되는 포인트 2: 커리어 관점에서는 `도구 사용`보다 `업무를 다시 나누는 설계 능력`이 더 차별화된다.
+- 나와 연결되는 포인트 3: X, 뉴스, YouTube의 역할 차이를 유지해야 하루 결론 문서의 품질이 높아진다.
 
 # Blog / Portfolio Ideas
-- 글감 1: 오픈 에이전트 경쟁은 왜 모델 성능보다 라이선스·과금·보안 경쟁으로 바뀌는가
-- 글감 2: Hormuz tail risk가 인플레이션과 AI 인프라 투자 판단까지 번지는 경로
-- 포트폴리오 메모 1: X는 신호, 뉴스는 확인, YouTube는 설명으로 묶는 daily analyst workflow
-- 포트폴리오 메모 2: AI coworker를 실제 업무 플로우에 붙일 때 필요한 승인·관측·역할 분리 기준
+- 글감 1: Hormuz tail risk가 물가와 AI 인프라 비용 판단까지 번지는 경로
+- 글감 2: Gemma 4, MCP, OpenClaw를 `개방성 / 비용 / 보안 / 통제`로 다시 읽기
+- 포트폴리오 메모 1: X는 fast signal, 뉴스는 fact lock, YouTube는 mechanism explanation으로 묶는 daily analyst workflow
 
 # Analysis Diagnostics
 - 첫 저녁 실행 여부: 예
-- 비교 기준 강도: 약함. 오전·점심 문서 모두 2026-04-07 오전 생성 collection 3종에 의존한다.
-- 누락 입력과 영향: 저녁 전용 X / News / YouTube 추가 수집본이 없어 종가 이후 시장 반응과 late-day 보강 신호 비교는 제한됐다.
-- X 중심 흐름 수: 0
-- News 중심 흐름 수: 1
-- YouTube 중심 흐름 수: 0
+- raw 재사용 범위: `11_*_raw.md` 3개 + `13_*_raw.md` 3개를 저녁 최종본의 기준선으로 재사용했다.
+- 누락 입력과 영향: 저녁 직전 신규 raw가 없어 late-day follow-through, 종가 이후 반응, direct watch channel 보강은 제한됐다.
+- 소스 강도: X는 fast surface는 충분했지만 late-day direct 원문이 약했다.
+- 소스 강도: News는 오늘 가장 강한 사실 확인 레이어였다.
+- 소스 강도: YouTube는 설명 가치는 높았지만 Bloomberg 계열 편중과 한국·일본 설명형 공백이 남았다.
 - 교차 확인된 핵심 흐름 수: 4
 - 오전 -> 점심 -> 저녁으로 중요도가 높아진 흐름 수: 3
-- 내일 행동으로 연결된 핵심 흐름 수: 4
-- 특정 카테고리 쏠림 여부: AI 비중은 높지만 거시·투자 축이 함께 올라와 단일 테마 과열로 보이진 않는다.
-- 추가 데이터가 필요한 영역: 한국·일본 설명형 YouTube, Foundry 2.0 원 리포트, Claude leak 1차 출처, 공공부문 AI workload automation의 반복 사례
+- 오늘 행동으로 바로 연결된 핵심 흐름 수: 4
+- 특정 카테고리 쏠림 여부: AI 비중은 높지만 에너지·거시·투자 축이 함께 올라와 단일 테마 과열로 보긴 어렵다.
+- 추가 데이터가 필요한 영역: power equipment 직접 수혜 기업, public-sector AI 반복 사례, Gemma 4 벤치마크, AI skilling KPI
+- git 반영 상태: 저녁 문서/운영 문서 갱신 후 commit 및 push 시도를 별도로 수행한다.

@@ -2,8 +2,8 @@
 
 ## 2026-04-07
 
-- 저녁 `21_integrated_analysis.md`를 에너지/Hormuz, AI 인프라 자본 사이클, 오픈 툴링 통제, 업무 재설계의 4개 최종 흐름 중심으로 재정렬했다.
-- `22_close_handoff.md`를 내일 아침 바로 볼 3개 흐름, 3개 첫 확인 포인트, 우선순위 높은 watch carryover만 남기는 압축 문서로 정리했다.
-- 루트 `PROJECT_OPERATING_GUIDE.md`와 `Plan.md`를 새로 만들어 현재 폴더 구조, 먼저 볼 파일, watch 반영 절차, 다음 액션을 명시했다.
-- 오늘 candidate 판단은 유지했다: X는 `@Google`, `@SEMIconex`, `@PolkadotDevs`, 뉴스는 `Korea JoongAng Daily`, 주제는 AI skilling / memory supply / industrial policy 축을 우선 carry했다.
-- 운영 메모: `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했다. 다음 수동 액션은 GitHub 자격 증명이 있는 셸에서 `git push origin main`을 다시 실행하는 것이다.
+- 소스별 `08_*` collection 3종을 저녁 최종 상태로 다시 정리했고, late-day 신규 raw가 없다는 점을 헤더와 Diagnostics에 명시했다.
+- `21_integrated_analysis.md`를 Hormuz·에너지, AI 인프라 자본 사이클, AI 노동 재설계, Gemma 4 / MCP tool-choice의 4개 최종 흐름 중심으로 재작성했다.
+- `22_close_handoff.md`를 내일 아침 3분 복기용 문서로 압축했고, 첫 확인 포인트 3개와 high-priority watch carryover만 남겼다.
+- `PROJECT_OPERATING_GUIDE.md`와 `Plan.md`를 저녁용 사용 흐름 기준으로 갱신했고, `11_*` / `13_*` raw 재사용 규칙과 다음 액션을 최신화했다.
+- git 반영과 push 시도 결과는 이번 실행 종료 시점 상태로 다시 확인해 남긴다.
