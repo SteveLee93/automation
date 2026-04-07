@@ -94,4 +94,4 @@
 - 내일 첫 행동: cross-asset 확인 후 AI 인프라 숫자판을 만들고 workflow experiment / tool-choice 메모를 시작한다.
 - 후보 업데이트: 루트 candidate snapshot 5종을 새로 만들었고, 즉시 반영 1순위는 Korea JoongAng Daily다.
 
-- 메모: 이번 실행은 기존 저녁 최종본을 같은 raw 기준으로 다시 정렬한 rerun이다. late-day raw는 없었고, 루트 candidate snapshot 입력 5종은 `08_*` 후보 문서에서 생성해 채웠다.
+- 메모: 이번 실행은 기존 저녁 최종본을 같은 raw 기준으로 다시 정렬한 rerun이다. late-day raw는 없었고, 루트 candidate snapshot 입력 5종은 `08_*` 후보 문서에서 생성해 채웠다. `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했고, 다음 수동 액션은 자격 증명이 있는 셸에서 같은 명령을 다시 실행하는 것이다.

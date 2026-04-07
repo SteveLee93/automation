@@ -6,4 +6,4 @@
 - 비어 있던 루트 candidate snapshot 5종을 같은 날짜의 `08_*` 후보 문서에서 생성해 입력 호환 경로를 복구했다.
 - `21_integrated_analysis.md`를 `최종 핵심 흐름 + Final Cross-Confirmed Signals + Decision Support Notes` 구조로 다시 썼다.
 - `22_close_handoff.md`를 `오늘 가장 중요한 흐름 1개 + Tonight if I want to do one thing + 체크박스형 실행 보드` 구조로 압축했다.
-- `PROJECT_OPERATING_GUIDE.md`와 `Plan.md`를 snapshot fallback 흐름과 내일 첫 행동 기준으로 갱신했다.
+- `PROJECT_OPERATING_GUIDE.md`와 `Plan.md`를 snapshot fallback 흐름과 내일 첫 행동 기준으로 갱신했다. `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했고, 자격 증명이 있는 셸에서 재시도가 필요하다.
