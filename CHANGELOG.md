@@ -1,9 +1,9 @@
 # CHANGELOG
 
-## 2026-04-07
+## 2026-04-08
 
-- 소스별 `08_*` collection 3종을 저녁 rerun 기준으로 다시 정리했고, late-day 신규 raw 부재와 candidate snapshot 입력 공백을 메타에 반영했다.
-- 비어 있던 루트 candidate snapshot 5종을 같은 날짜의 `08_*` 후보 문서에서 생성해 입력 호환 경로를 복구했다.
-- `21_integrated_analysis.md`를 `최종 핵심 흐름 + Final Cross-Confirmed Signals + Decision Support Notes` 구조로 다시 썼다.
-- `22_close_handoff.md`를 `오늘 가장 중요한 흐름 1개 + Tonight if I want to do one thing + 체크박스형 실행 보드` 구조로 압축했다.
-- `PROJECT_OPERATING_GUIDE.md`와 `Plan.md`를 snapshot fallback 흐름과 내일 첫 행동 기준으로 갱신했다. `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했고, 자격 증명이 있는 셸에서 재시도가 필요하다.
+- 전날 저녁 `18/20/22` raw와 오늘 `00/02/04/06/11` raw를 함께 써서 X, 뉴스, YouTube `08_*` processed 3종을 저녁 기준으로 다시 정렬했다.
+- `21_integrated_analysis.md`를 `최종 핵심 흐름 4개 + Final Cross-Confirmed Signals + Decision Support Notes` 구조의 첫 저녁 기준선으로 새로 작성했다.
+- `22_close_handoff.md`를 `오늘 가장 중요한 흐름 1개 + Tonight if I want to do one thing + 선택형 실행 보드` 구조로 새로 작성했다.
+- `PROJECT_OPERATING_GUIDE.md`에 저녁 fallback 규칙을 갱신했고, `Plan.md`를 내일 첫 행동과 개선 포인트 기준으로 업데이트했다.
+- 오늘자 candidate 파일 5종과 11시 이후 late-day raw가 없어 watch 후보와 closing reaction은 raw / processed 직접 판정 기준으로만 정리했다.
