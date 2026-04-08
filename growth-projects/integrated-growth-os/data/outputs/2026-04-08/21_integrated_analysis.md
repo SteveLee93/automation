@@ -172,4 +172,4 @@
 - 소스 강도: YouTube는 설명 가치는 높았지만 Bloomberg 계열 편중이 남았다.
 - 오전 -> 점심 -> 저녁으로 중요도가 높아진 흐름 수: 3
 - 재검토 우선 포인트: `AI layoffs / coworker / workforce expansion`, `QTS / power bottleneck / Samsung`, `Hormuz / fertilizer / food / Korea response`
-- git 반영 상태: 로컬 commit은 완료됐지만 `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했다. 다음 수동 액션은 자격 증명이 있는 셸에서 같은 명령을 다시 실행하는 것이다.
+- git 반영 상태: 자동화 실행 중 `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 한 차례 실패했다. 이후 현재 세션에서 재시도해 push까지 완료했다.

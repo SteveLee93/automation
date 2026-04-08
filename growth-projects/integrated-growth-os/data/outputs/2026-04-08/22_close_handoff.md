@@ -93,4 +93,4 @@
 - 내일 첫 행동: cross-asset를 먼저 보고 AI 인프라 숫자판과 workflow experiment 메모를 이어서 정리한다.
 - 후보 업데이트: candidate 파일은 없었고, Add Now 후보는 raw / processed 직접 판정으로만 정리했다.
 
-- 메모: 이번 실행은 2026-04-08 첫 저녁 기준선이다. 오늘자 candidate 파일 5종과 11시 이후 late-day raw가 없어 watch 후보와 closing reaction은 직접 입력 없이 정리했다. `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 실패했고, 자격 증명이 있는 셸에서 수동 재시도가 필요하다.
+- 메모: 이번 실행은 2026-04-08 첫 저녁 기준선이다. 오늘자 candidate 파일 5종과 11시 이후 late-day raw가 없어 watch 후보와 closing reaction은 직접 입력 없이 정리했다. 자동화 실행 중 `git push origin main`은 `SEC_E_NO_CREDENTIALS`로 한 차례 실패했지만, 이후 현재 세션에서 재시도해 push까지 완료했다.
